@@ -46,7 +46,7 @@ Update the `appsettings.json` file with the following fields:
     "ApiKey": "your-api-key",
     "ApiPassword": "your-api-password",
     "APIVersion": "2024-10",
-    "AccessToken: "AccessToken" --Still trying to manage on how to save it.
+    "AccessToken": "AccessToken" --Still trying to manage on how to save it.
   }
 }
 ```
