@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+/obj/Debug/net8.0/ShopifyTool.AssemblyInfo.cs
+/obj/Debug/net8.0/ShopifyTool.AssemblyInfoInputs.cache
+/.vs/ShopifyTool/FileContentIndex/632b743b-cc46-4eb8-b716-2c86f9627070.vsidx
