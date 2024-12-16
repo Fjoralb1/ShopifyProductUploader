@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 334,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,6 +89,10 @@
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Index.cshtml",
@@ -98,8 +102,7 @@
               "RelativeToolTip": "Views\\Shopify\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T22:35:17.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T22:35:17.48Z"
             },
             {
               "$type": "Document",
@@ -111,8 +114,7 @@
               "RelativeToolTip": "Views\\Shopify\\Create.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T22:34:09.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T22:34:09.627Z"
             },
             {
               "$type": "Document",
@@ -124,8 +126,7 @@
               "RelativeToolTip": "Controllers\\OAuthController.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAYwDwAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T21:33:42.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T21:33:42.279Z"
             },
             {
               "$type": "Document",
@@ -137,8 +138,7 @@
               "RelativeToolTip": "Services\\ShopifyService.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAlwBkAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T17:07:07.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T17:07:07.448Z"
             },
             {
               "$type": "Document",
@@ -148,7 +148,7 @@
               "RelativeDocumentMoniker": "Controllers\\ShopifyController.cs",
               "ToolTip": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Controllers\\ShopifyController.cs",
               "RelativeToolTip": "Controllers\\ShopifyController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAawBgAAAAWAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAawBMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T13:42:05.138Z",
               "EditorCaption": ""
