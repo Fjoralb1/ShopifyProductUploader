@@ -1,0 +1,117 @@
+﻿@model ProductDTO
+
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<div class="container">
+    <h2 class="text-center mb-4">Create a New Product</h2>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">
+            <strong>Error:</strong> @Html.Raw(ViewBag.Error)
+        </div>
+    }
+
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="card">
+            <div class="card-body">
+                <!-- Title Input -->
+                <div class="form-group">
+                    <label for="title">Product Title</label>
+                    <input asp-for="Title" class="form-control" placeholder="Enter product title" required />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <!-- Description Input -->
+                <div class="form-group">
+                    <label for="description">Product Description</label>
+                    <textarea asp-for="Description" class="form-control" placeholder="Enter product description" rows="4" required></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <!-- Variant SKU Input -->
+                <h4 class="mt-4">Variant Details</h4>
+                <div class="form-group">
+                    <label for="sku">SKU</label>
+                    <input asp-for="Variants[0].SKU" class="form-control" placeholder="Enter SKU" required />
+                    <span asp-validation-for="Variants[0].SKU" class="text-danger"></span>
+                </div>
+
+                <!-- Variant Price Input -->
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input asp-for="Variants[0].Price" type="number" step="0.01" class="form-control" placeholder="Enter price" required />
+                    <span asp-validation-for="Variants[0].Price" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="Inventory">Inventory</label>
+                    <input asp-for="Variants[0].InventoryQuantity" type="number" class="form-control" placeholder="Enter quantity" required />
+                    <span asp-validation-for="Variants[0].InventoryQuantity" class="text-danger"></span>
+                </div>
+
+                <!-- Image URL or File Upload -->
+                <h4 class="mt-4">Product Image</h4>
+                <div class="form-group">
+                    <label>Choose Image Source</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="ImageSource" id="imageUrlOption" value="url" checked />
+                        <label class="form-check-label" for="imageUrlOption">
+                            Use Image URL
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="ImageSource" id="imageUploadOption" value="upload" />
+                        <label class="form-check-label" for="imageUploadOption">
+                            Upload Image File
+                        </label>
+                    </div>
+                </div>
+
+                <!-- URL Input -->
+                <div id="imageUrlSection" class="form-group">
+                    <label for="imageUrl">Image URL</label>
+                    <input asp-for="Images[0].Src" id="imageUrl" class="form-control" placeholder="Enter image URL" />
+                    <span asp-validation-for="Images[0].Src" class="text-danger"></span>
+                </div>
+
+                <!-- File Upload Input -->
+                <div id="imageUploadSection" class="form-group d-none">
+                    <label for="imageUpload">Upload Image File</label>
+                    <input type="file" id="imageUpload" name="ImageFile" class="form-control-file" />
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-group text-center mt-4">
+                    <button type="submit" class="btn btn-primary btn-lg">Create Product</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const imageUrlOption = document.getElementById('imageUrlOption');
+            const imageUploadOption = document.getElementById('imageUploadOption');
+            const imageUrlSection = document.getElementById('imageUrlSection');
+            const imageUploadSection = document.getElementById('imageUploadSection');
+
+            imageUrlOption.addEventListener('change', toggleImageInput);
+            imageUploadOption.addEventListener('change', toggleImageInput);
+
+            function toggleImageInput() {
+                if (imageUrlOption.checked) {
+                    imageUrlSection.classList.remove('d-none');
+                    imageUploadSection.classList.add('d-none');
+                } else {
+                    imageUrlSection.classList.add('d-none');
+                    imageUploadSection.classList.remove('d-none');
+                }
+            }
+        });
+    </script>
+}

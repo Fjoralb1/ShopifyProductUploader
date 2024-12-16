@@ -1,0 +1,10 @@
+2024-12-16 17:26:29.003 +01:00 [INF] Fetching existing SKUs from Shopify.
+2024-12-16 17:26:29.606 +01:00 [ERR] Failed to fetch products. Status: Unauthorized, Error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+2024-12-16 17:26:29.661 +01:00 [ERR] An error occurred while fetching SKUs.
+System.Exception: Failed to fetch products. Status: Unauthorized, Error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+   at ShopifyTool.Services.ShopifyService.GetExistingSkusAsync() in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 120
+2024-12-16 17:27:29.924 +01:00 [ERR] An unexpected error occurred while creating the product.
+System.Exception: Failed to fetch products. Status: Unauthorized, Error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+   at ShopifyTool.Services.ShopifyService.GetExistingSkusAsync() in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 120
+   at ShopifyTool.Services.ShopifyService.CreateProductAsync(ProductDTO product) in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 32
+2024-12-16 17:47:50.678 +01:00 [INF] Fetching existing SKUs from Shopify.

@@ -1,0 +1,9 @@
+2024-12-16 22:59:26.842 +01:00 [INF] Fetching existing SKUs from Shopify.
+2024-12-16 22:59:27.536 +01:00 [INF] Fetched 3 SKUs successfully.
+2024-12-16 22:59:46.866 +01:00 [INF] Product created successfully.
+2024-12-16 23:01:10.647 +01:00 [INF] Fetching existing SKUs from Shopify.
+2024-12-16 23:01:11.095 +01:00 [INF] Fetched 4 SKUs successfully.
+2024-12-16 23:01:11.096 +01:00 [WRN] Product validation failed: Duplicate SKU detected: sdaasda23123
+2024-12-16 23:01:54.947 +01:00 [INF] Fetching existing SKUs from Shopify.
+2024-12-16 23:01:55.258 +01:00 [INF] Fetched 4 SKUs successfully.
+2024-12-16 23:02:04.404 +01:00 [INF] Product created successfully.

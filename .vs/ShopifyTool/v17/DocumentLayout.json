@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|c:\\users\\fjoralbfilej\\source\\repos\\shopifytool\\controllers\\shopifycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|solutionrelative:controllers\\shopifycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|c:\\users\\fjoralbfilej\\source\\repos\\shopifytool\\controllers\\oauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|solutionrelative:controllers\\oauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|c:\\users\\fjoralbfilej\\source\\repos\\shopifytool\\services\\shopifyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|solutionrelative:services\\shopifyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|c:\\users\\fjoralbfilej\\source\\repos\\shopifytool\\views\\shopify\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|solutionrelative:views\\shopify\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|c:\\users\\fjoralbfilej\\source\\repos\\shopifytool\\views\\shopify\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|solutionrelative:views\\shopify\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 334,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Views\\Shopify\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shopify\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Views\\Shopify\\Index.cshtml",
+              "RelativeToolTip": "Views\\Shopify\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T22:35:17.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Views\\Shopify\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shopify\\Create.cshtml",
+              "ToolTip": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Views\\Shopify\\Create.cshtml",
+              "RelativeToolTip": "Views\\Shopify\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T22:34:09.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OAuthController.cs",
+              "DocumentMoniker": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Controllers\\OAuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OAuthController.cs",
+              "ToolTip": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Controllers\\OAuthController.cs",
+              "RelativeToolTip": "Controllers\\OAuthController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAYwDwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T21:33:42.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopifyService.cs",
+              "DocumentMoniker": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Services\\ShopifyService.cs",
+              "RelativeDocumentMoniker": "Services\\ShopifyService.cs",
+              "ToolTip": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Services\\ShopifyService.cs",
+              "RelativeToolTip": "Services\\ShopifyService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAlwBkAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:07:07.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShopifyController.cs",
+              "DocumentMoniker": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Controllers\\ShopifyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopifyController.cs",
+              "ToolTip": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Controllers\\ShopifyController.cs",
+              "RelativeToolTip": "Controllers\\ShopifyController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAawBgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:42:05.138Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 52,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

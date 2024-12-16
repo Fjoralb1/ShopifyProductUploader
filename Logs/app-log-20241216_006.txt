@@ -1,0 +1,46 @@
+2024-12-16 18:40:50.515 +01:00 [INF] Fetching existing SKUs from Shopify.
+2024-12-16 18:42:20.088 +01:00 [ERR] Failed to fetch products. Status: Unauthorized, Error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+2024-12-16 18:42:20.162 +01:00 [ERR] An error occurred while fetching SKUs.
+System.Exception: Failed to fetch products. Status: Unauthorized, Error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+   at ShopifyTool.Services.ShopifyService.GetExistingSkusAsync() in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 120
+2024-12-16 18:42:20.360 +01:00 [ERR] An unexpected error occurred while creating the product.
+System.Exception: Failed to fetch products. Status: Unauthorized, Error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+   at ShopifyTool.Services.ShopifyService.GetExistingSkusAsync() in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 120
+   at ShopifyTool.Services.ShopifyService.CreateProductAsync(ProductDTO product) in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 32
+2024-12-16 18:42:42.747 +01:00 [INF] Fetching existing SKUs from Shopify.
+2024-12-16 18:43:28.638 +01:00 [ERR] Failed to fetch products. Status: Unauthorized, Error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+2024-12-16 18:43:28.693 +01:00 [ERR] An error occurred while fetching SKUs.
+System.Exception: Failed to fetch products. Status: Unauthorized, Error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+   at ShopifyTool.Services.ShopifyService.GetExistingSkusAsync() in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 120
+2024-12-16 18:43:28.809 +01:00 [ERR] An unexpected error occurred while creating the product.
+System.Exception: Failed to fetch products. Status: Unauthorized, Error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+   at ShopifyTool.Services.ShopifyService.GetExistingSkusAsync() in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 120
+   at ShopifyTool.Services.ShopifyService.CreateProductAsync(ProductDTO product) in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 32
+2024-12-16 21:12:03.935 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: AccessToken is missing. Please authorize the app.
+   at ShopifyTool.Services.ShopifyService..ctor(HttpClient httpClient, IOptions`1 settings, ILogger`1 logger) in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 22
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method2(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)

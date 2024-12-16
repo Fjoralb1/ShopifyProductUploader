@@ -1,0 +1,16 @@
+2024-12-16 22:31:11.799 +01:00 [INF] Fetching existing SKUs from Shopify.
+2024-12-16 22:31:52.288 +01:00 [ERR] Failed to fetch products. Status: NotFound, Error: {"errors":"Not Found"}
+2024-12-16 22:31:52.342 +01:00 [ERR] An error occurred while fetching SKUs.
+System.Exception: Failed to fetch products. Status: NotFound, Error: {"errors":"Not Found"}
+   at ShopifyTool.Services.ShopifyService.GetExistingSkusAsync() in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 118
+2024-12-16 22:31:52.495 +01:00 [ERR] An unexpected error occurred while creating the product.
+System.Exception: Failed to fetch products. Status: NotFound, Error: {"errors":"Not Found"}
+   at ShopifyTool.Services.ShopifyService.GetExistingSkusAsync() in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 118
+   at ShopifyTool.Services.ShopifyService.CreateProductAsync(ProductDTO product) in C:\Users\FjoralbFilej\source\repos\ShopifyTool\Services\ShopifyService.cs:line 30
+2024-12-16 22:32:36.645 +01:00 [INF] Fetching existing SKUs from Shopify.
+2024-12-16 22:36:26.796 +01:00 [INF] Fetching existing SKUs from Shopify.
+2024-12-16 22:37:33.443 +01:00 [INF] Fetched 1 SKUs successfully.
+2024-12-16 22:39:16.884 +01:00 [ERR] Failed to create product: {"errors":{"product":"Required parameter missing or invalid"}}
+2024-12-16 22:42:56.522 +01:00 [INF] Fetching existing SKUs from Shopify.
+2024-12-16 22:42:59.556 +01:00 [INF] Fetched 1 SKUs successfully.
+2024-12-16 22:45:10.497 +01:00 [ERR] Failed to create product: {"errors":{"product":"Required parameter missing or invalid"}}

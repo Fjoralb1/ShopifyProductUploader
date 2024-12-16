@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Our Product Management System</h1>
+        <p class="lead">Easily create and manage products for your online store. Get started by adding a new product!</p>
+        <hr class="my-4">
+        <p>Click below to create a new product or manage existing ones.</p>
+        <a class="btn btn-primary btn-lg" href="@Url.Action("Authorize", "OAuth")" role="button">Authorize the app</a>
+        <a class="btn btn-primary btn-lg" href="@Url.Action("Create", "Shopify")" role="button">Create Product</a>
+    </div>
+</div>
