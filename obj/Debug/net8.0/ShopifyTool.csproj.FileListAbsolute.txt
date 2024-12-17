@@ -57,3 +57,4 @@ C:\Users\FjoralbFilej\source\repos\ShopifyTool\obj\Debug\net8.0\refint\ShopifyTo
 C:\Users\FjoralbFilej\source\repos\ShopifyTool\obj\Debug\net8.0\ShopifyTool.pdb
 C:\Users\FjoralbFilej\source\repos\ShopifyTool\obj\Debug\net8.0\ShopifyTool.genruntimeconfig.cache
 C:\Users\FjoralbFilej\source\repos\ShopifyTool\obj\Debug\net8.0\ref\ShopifyTool.dll
+C:\Users\FjoralbFilej\source\repos\ShopifyTool\obj\Debug\net8.0\ShopifyTool.sourcelink.json
