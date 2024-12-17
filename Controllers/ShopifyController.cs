@@ -7,15 +7,26 @@ namespace ShopifyTool.Controllers
     public class ShopifyController : Controller
     {
         private readonly ShopifyService _service;
+        private readonly IConfiguration _configuration;
 
-        public ShopifyController(ShopifyService service)
+        public ShopifyController(ShopifyService service, IConfiguration configuration)
         {
             _service = service;
+            _configuration = configuration;
         }
 
         [HttpGet]
         public IActionResult Index()
         {
+            // Retrieve the access token from configuration
+            var accessToken = _configuration["Shopify:AccessToken"];
+
+            // Determine if the token exists
+            var isAuthorized = !string.IsNullOrEmpty(accessToken);
+
+            // Pass the authorization status to the view
+            ViewBag.IsAuthorized = isAuthorized;
+
             return View();
         }
 

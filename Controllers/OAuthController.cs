@@ -60,8 +60,26 @@ namespace ShopifyTool.Controllers
             var responseBody = await response.Content.ReadAsStringAsync();
             var tokenResponse = JsonConvert.DeserializeObject<AccessTokenResponse>(responseBody);
 
-            TempData["AccessToken"] = tokenResponse.AccessToken;
+            //Update the access token in appsettings.
+            UpdateAppSettings(tokenResponse!.AccessToken);
+
             return RedirectToAction("Index", "Shopify");
+        }
+
+        private void UpdateAppSettings(string token)
+        {
+            var configFilePath = Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json");
+
+            // Read the current appsettings.json
+            var json = System.IO.File.ReadAllText(configFilePath);
+            dynamic jsonObj = JsonConvert.DeserializeObject(json);
+
+            // Update the AccessToken
+            jsonObj["Shopify"]["AccessToken"] = token;
+
+            // Write the changes back to appsettings.json
+            var updatedJson = JsonConvert.SerializeObject(jsonObj, Formatting.Indented);
+            System.IO.File.WriteAllText(configFilePath, updatedJson);
         }
 
         private class AccessTokenResponse
