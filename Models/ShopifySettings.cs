@@ -8,6 +8,5 @@
         public string APIVersion { get; set; }
         public string Scopes { get; set; }
         public string RedirectUri { get; set; }
-        public string AccessToken { get; set; }
     }
 }

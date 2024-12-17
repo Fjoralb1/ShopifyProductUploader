@@ -31,9 +31,8 @@ This .NET Core application integrates with Shopify using the Admin REST API. It 
 
 1. Log in to your Shopify Partner Dashboard.
 2. Register a new custom app or edit an existing one.
-3. Add required API scopes (`write_products`, `read_products`).
-4. Set the **Allowed Redirect URIs** to your application's callback URL.
-5. Generate the API Key and Secret.
+3. Set the **Allowed Redirect URIs** to your application's callback URL.
+4. Generate the API Key and Secret.
 
 ### Application Configuration
 
@@ -43,10 +42,11 @@ Update the `appsettings.json` file with the following fields:
 {
   "Shopify": {
     "ShopUrl": "https://your-shop-url.myshopify.com",
-    "ApiKey": "your-api-key",
-    "ApiPassword": "your-api-password",
-    "APIVersion": "2024-10",
-    "AccessToken": "AccessToken" --Still trying to manage on how to save it.
+    "ClientId": "your-client-id",
+    "CLientSecret": "your-client-secret",
+    "RedirectUri": "https://your-app-url/oauth/callback",
+    "Scopes": "read_products,write_products",
+    "APIVersion": "2024-10"
   }
 }
 ```
@@ -60,10 +60,10 @@ Update the `appsettings.json` file with the following fields:
 1. Use Ngrok to expose your localhost:
 
 ```bash
-ngrok http 5000
+ngrok http PORT --host-header="localhost:PORT"
 ```
 
-2. Update the Shopify app's redirect URI with the Ngrok forwarding URL (e.g., `https://your-ngrok-url.ngrok.io/oauth/callback`).
+2. Update the Shopify app's redirect URI with the Ngrok forwarding URL (e.g., `https://your-ngrok-url/oauth/callback`).
 
 ### Production
 
@@ -100,17 +100,18 @@ ngrok http 5000
 ### Accessing the Application
 
 - Navigate to the home page.
+- If the authorization is not done yet Select "Authorize the app" button (The button is only visible when the app is not authorized).
 - Select "Create Product."
 
 ### Creating a Product
 
-1. Fill in the product title, description, SKU, and price.
+1. Fill in the product title, description, SKU, price and inventory quantity.
 2. Add an image via URL or upload a file.
 3. Click "Create Product" to submit.
 
 ### Success/Error Responses
 
-- **On success**: Redirects to a confirmation page or displays a success message.
+- **On success**: Redirects to a success page with a success message.
 - **On error**: Displays the error message with details.
 
 ---

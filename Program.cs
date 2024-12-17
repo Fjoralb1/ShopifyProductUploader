@@ -26,8 +26,9 @@ namespace ShopifyTool
             builder.Services.Configure<ShopifySettings>(
                 builder.Configuration.GetSection("Shopify"));
 
-            //Register the Shopify Service with a HttpClient.
+            //Register the Shopify Service with a HttpClient and the TokenService.
             builder.Services.AddHttpClient<ShopifyService>();
+            builder.Services.AddSingleton<TokenService>();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

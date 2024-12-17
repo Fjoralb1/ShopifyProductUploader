@@ -6,15 +6,22 @@
 <div class="container">
     <div class="jumbotron text-center">
         <h1 class="display-4">Welcome to Our Product Management System</h1>
-        <p class="lead">Easily create and manage products for your online store. Get started by adding a new product!</p>
-        <hr class="my-4">
-        <p>Click below to create a new product or manage existing ones.</p>
 
         @if (!isAuthorized)
         {
-            <a class="btn btn-primary btn-lg" href="@Url.Action("Authorize", "OAuth")" role="button">Authorize the app</a>
+            <!-- Content for unauthorized users -->
+            <p class="lead">To start managing your store's products, you need to authorize the application.</p>
+            <hr class="my-4">
+            <p>Click below to authorize the app and link it to your Shopify store.</p>
+            <a class="btn btn-primary btn-lg" href="@Url.Action("Authorize", "OAuth")" role="button">Authorize the App</a>
         }
-
-        <a class="btn btn-primary btn-lg" href="@Url.Action("Create", "Shopify")" role="button">Create Product</a>
+        else
+        {
+            <!-- Content for authorized users -->
+            <p class="lead">You're all set! You can now create and manage products for your online store.</p>
+            <hr class="my-4">
+            <p>Click below to add a new product to your store.</p>
+            <a class="btn btn-primary btn-lg" href="@Url.Action("Create", "Shopify")" role="button">Create Product</a>
+        }
     </div>
 </div>

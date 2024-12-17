@@ -1,0 +1,3 @@
+2024-12-17 19:33:31.501 +01:00 [INF] Fetching existing SKUs from Shopify.
+2024-12-17 19:33:32.023 +01:00 [INF] Fetched 0 SKUs successfully.
+2024-12-17 19:33:33.975 +01:00 [INF] Product created successfully.

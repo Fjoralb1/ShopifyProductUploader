@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using ShopifyTool.Models;
+using ShopifyTool.Services;
 using System.Text;
 
 namespace ShopifyTool.Controllers
@@ -10,11 +11,13 @@ namespace ShopifyTool.Controllers
     {
         private readonly ShopifySettings _shopifySettings;
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly TokenService _tokenService;
 
-        public OAuthController(IOptions<ShopifySettings> options, IHttpClientFactory httpClientFactory)
+        public OAuthController(IOptions<ShopifySettings> options, IHttpClientFactory httpClientFactory, TokenService tokenService)
         {
             _shopifySettings = options.Value;
             _httpClientFactory = httpClientFactory;
+            _tokenService = tokenService;
         }
 
         // Redirect user to Shopify for authorization
@@ -61,25 +64,13 @@ namespace ShopifyTool.Controllers
             var tokenResponse = JsonConvert.DeserializeObject<AccessTokenResponse>(responseBody);
 
             //Update the access token in appsettings.
-            UpdateAppSettings(tokenResponse!.AccessToken);
+            if (tokenResponse != null && !string.IsNullOrEmpty(tokenResponse.AccessToken))
+            {
+                _tokenService.AccessToken = tokenResponse.AccessToken;
+                return RedirectToAction("Index", "Shopify");
+            }
 
-            return RedirectToAction("Index", "Shopify");
-        }
-
-        private void UpdateAppSettings(string token)
-        {
-            var configFilePath = Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json");
-
-            // Read the current appsettings.json
-            var json = System.IO.File.ReadAllText(configFilePath);
-            dynamic jsonObj = JsonConvert.DeserializeObject(json);
-
-            // Update the AccessToken
-            jsonObj["Shopify"]["AccessToken"] = token;
-
-            // Write the changes back to appsettings.json
-            var updatedJson = JsonConvert.SerializeObject(jsonObj, Formatting.Indented);
-            System.IO.File.WriteAllText(configFilePath, updatedJson);
+            return RedirectToAction("Error");
         }
 
         private class AccessTokenResponse

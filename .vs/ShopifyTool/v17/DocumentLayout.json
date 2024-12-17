@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|c:\\users\\fjoralbfilej\\source\\repos\\shopifytool\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|c:\\users\\fjoralbfilej\\source\\repos\\shopifytool\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|c:\\users\\fjoralbfilej\\source\\repos\\shopifytool\\services\\shopifyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|solutionrelative:services\\shopifyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|c:\\users\\fjoralbfilej\\source\\repos\\shopifytool\\controllers\\shopifycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|solutionrelative:controllers\\shopifycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|c:\\users\\fjoralbfilej\\source\\repos\\shopifytool\\controllers\\oauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|solutionrelative:controllers\\oauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|c:\\users\\fjoralbfilej\\source\\repos\\shopifytool\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D2E67DA8-BCAE-4735-B622-FDD4B340F045}|ShopifyTool.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 334,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,52 +86,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-17T16:07:10.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OAuthController.cs",
-              "DocumentMoniker": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Controllers\\OAuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OAuthController.cs",
-              "ToolTip": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Controllers\\OAuthController.cs",
-              "RelativeToolTip": "Controllers\\OAuthController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T21:33:42.279Z",
+              "WhenOpened": "2024-12-17T19:02:14.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-12-17T19:01:54.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ShopifyService.cs",
               "DocumentMoniker": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Services\\ShopifyService.cs",
               "RelativeDocumentMoniker": "Services\\ShopifyService.cs",
               "ToolTip": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Services\\ShopifyService.cs",
               "RelativeToolTip": "Services\\ShopifyService.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAtwEsAAAAWAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAADgvx4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T17:07:07.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ShopifyController.cs",
               "DocumentMoniker": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Controllers\\ShopifyController.cs",
               "RelativeDocumentMoniker": "Controllers\\ShopifyController.cs",
               "ToolTip": "C:\\Users\\FjoralbFilej\\source\\repos\\ShopifyTool\\Controllers\\ShopifyController.cs",
               "RelativeToolTip": "Controllers\\ShopifyController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAkwBMAAAAJAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAkwFcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T13:42:05.138Z",
               "EditorCaption": ""

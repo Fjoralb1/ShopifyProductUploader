@@ -13,12 +13,12 @@ namespace ShopifyTool.Services
         private readonly HttpClient _httpClient;
         private readonly ILogger<ShopifyService> _logger;
 
-        public ShopifyService(HttpClient httpClient, IOptions<ShopifySettings> settings, ILogger<ShopifyService> logger)
+        public ShopifyService(HttpClient httpClient, IOptions<ShopifySettings> settings, ILogger<ShopifyService> logger, TokenService tokenService)
         {
             var shopifySettings = settings.Value;
             _httpClient = httpClient;
             _httpClient.BaseAddress = new Uri(shopifySettings.ShopUrl);
-            _httpClient.DefaultRequestHeaders.Add("X-Shopify-Access-Token", shopifySettings.AccessToken);
+            _httpClient.DefaultRequestHeaders.Add("X-Shopify-Access-Token", tokenService.AccessToken);
             _apiVersion = shopifySettings.APIVersion;
             _logger = logger;
         }
